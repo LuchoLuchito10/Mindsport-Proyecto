@@ -1,22 +1,22 @@
 # 🧠 MindSport - Sistema de Evaluación y Seguimiento Psicológico Deportivo
 ![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)
-![React](https://img.shields.io/badge/React-18.x-blue)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-brightgreen)
+![Bota de primavera](https://img.shields.io/badge/Spring%20Boot-3.x-green)
+![Reaccionar](https://img.shields.io/badge/React-18.x-blue)
+![Base de datos Mongo](https://img.shields.io/badge/MongoDB-Atlas-brightgreen)
 ![JWT](https://img.shields.io/badge/Seguridad-JWT-orange)
 
 ---
 
 ## 🎯 Problemática que aborda
 
-El proyecto **MindSport** nace como respuesta a una problemática creciente en el ámbito deportivo profesional y formativo, donde los factores psicológicos influyen directamente en el rendimiento, la permanencia y la salud integral del futbolista.
+El proyecto MindSport surge como respuesta a una problemática creada en el sueño del deporte formativo y profesional en Chile, donde los factores psicológicos influyen directamente en el encuentro, la permanencia y la salud integral del futbolista.
 
-### Principales desafíos identificados:
-- **Alta tasa de abandono deportivo** derivada de factores psicológicos no tratados a tiempo.  
-- **Bajo rendimiento deportivo asociado a una débil fortaleza mental**, falta de concentración o gestión emocional ineficiente.  
-- **Ausencia de un seguimiento psicológico integral** que acompañe la evolución del deportista a lo largo del tiempo.  
-- **Dificultad para la detección temprana** de síntomas de estrés, ansiedad o depresión.  
-- **Falta de herramientas digitales específicas** para integrar evaluación psicológica y datos de rendimiento deportivo.
+### Principios desafíos identificados:
+- Alta masa de abandono deportivo entre jóvenes futbolistas, muchas veces vinculada a factores psicológicos no abiertos a tiempo. 
+- Bajo rendimiento deportivo asociado a una deficiencia fortaleza mental, falta de concentración o gestión emocional inadecuada. 
+- Ausencia de un seguimiento psicológico integral y continuo que acompaña la evolución del deportista a lo largo del tiempo. 
+- Dificultad para la detección temporal de síntomas de estrés, ansiedad o depresión en jugadores en formación.
+- Carencia de herramientas digitales específicas que integran la evaluación psicológica con datos de rendimiento deportivo y permiso una intervención proactiva.
 
 ---
 
@@ -25,19 +25,19 @@ El proyecto **MindSport** nace como respuesta a una problemática creciente en e
 | Funcionalidad | Estado | Beneficio |
 |----------------|---------|------------|
 | Autenticación JWT | ✅ MVP | Acceso seguro y diferenciado |
-| Gestión de Roles | ✅ MVP | Control de accesos específicos (Entrenador / Futbolista) |
-| Tests IED/IPED | ✅ MVP | Evaluación psicológica estandarizada |
-| MongoDB Cloud | ✅ MVP | Almacenamiento seguro de datos |
+| Gestión de Roles | ✅ MVP | Control de accesos especiales (Entrenador / Futbolista) |
+| Sondas IED/IPED | ✅ MVP | Evaluación psicológica estandarizada |
+| Nube MongoDB | ✅ MVP | Almacenamiento seguro de datos |
 | API REST documentada | ✅ MVP | Integración robusta con frontend |
-| Dashboard de Entrenador | 🔄 En desarrollo | Seguimiento del equipo y alertas |
-| Sistema de Alertas | 🔄 En desarrollo | Detección temprana de indicadores psicológicos |
-| Reportes Automáticos | 🔄 En desarrollo | Análisis de progreso y rendimiento |
+| Panel de control de Entrenador | 🔄 En desarrollo | Seguimiento del equipo y alertas |
+| Sistema de alertas | 🔄 En desarrollo | Detección temporal de indicadores psicológicos |
+| Información Automática | 🔄 En desarrollo | Análisis de progreso y rendimiento |
 
 ---
 
 ## 🏗️ Arquitectura del Sistema
 
-El sistema está basado en una arquitectura moderna orientada a microservicios, con un **frontend React** que se comunica con un **backend en Spring Boot** mediante **JWT** para autenticación y **MongoDB Atlas** como base de datos en la nube.
+El sistema está basado en una arquitectura moderna orientada a microservicios, con un **frontend React** que se comunica con un **backend en Spring Boot** mediante **JWT** para autenticación y **Atlas de MongoDB** como base de datos en la nube.
 
 **Esquema general:**
 - Frontend (React)
